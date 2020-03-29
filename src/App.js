@@ -40,6 +40,7 @@ class App extends Component {
     return (
       <Button
         className={`btn-outline-primary ${sortType === sortCondition ? 'btn-styled' : ''}`}
+
         label={label}
         onClick={() => {
           onClick(sortCondition);
